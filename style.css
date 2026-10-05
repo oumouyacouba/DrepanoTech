@@ -47,3 +47,111 @@
 .nav-links a:hover {
     color: #e0262c;
 }
+/* =========================
+   HERO
+========================= */
+
+/* =========================
+   HERO
+========================= */
+
+/* =========================
+   HERO
+========================= */
+
+.hero {
+    min-height: 80vh;
+    padding: 50px 80px;
+}
+
+/* Nom DrepanoTech */
+
+.hero-name {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+
+/* Contenu du Hero */
+
+.hero-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 70px;
+}
+
+/* Partie texte */
+
+.hero-text {
+    flex: 1;
+}
+
+/* Bloc de chaque langue */
+
+.language-block {
+    margin-bottom: 35px;
+}
+
+/* Français / English */
+
+.language-label {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 12px;
+}
+
+/* Titre français */
+
+.hero-text h1 {
+    font-size: 48px;
+    line-height: 1.2;
+    margin-bottom: 15px;
+}
+
+/* Titre anglais */
+
+.hero-text h2 {
+    font-size: 30px;
+    line-height: 1.3;
+    margin-bottom: 15px;
+}
+
+/* Slogans */
+
+.hero-slogan {
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+/* Bouton */
+
+.hero-button {
+    padding: 14px 25px;
+    background-color: #1a0d93;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.hero-button:hover {
+    background-color: #e0262c;
+}
+
+/* Image */
+
+.hero-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-image img {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+}
