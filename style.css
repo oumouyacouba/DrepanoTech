@@ -190,3 +190,75 @@
     max-width: 300px;
     height: auto;
 }
+/* =========================
+   HEMOGLOBIN TYPES
+========================= */
+
+.hemoglobin {
+    padding: 80px;
+    background-color: #f8f9fc;
+    text-align: center;
+}
+
+.hemoglobin h2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.hemoglobin > p {
+    max-width: 700px;
+    margin: 0 auto 40px;
+    font-size: 17px;
+    line-height: 1.7;
+    color: #444;
+}
+
+
+/* Types */
+
+.hemoglobin-types {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 40px;
+}
+
+.hemoglobin-types button {
+    padding: 15px 30px;
+    background-color: white;
+    color:#1a0d93;
+    border: 2px solid #1a0d93;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+
+/* Hover */
+
+.hemoglobin-types button:hover {
+    background-color: #1a0d93;
+    color: white;
+}
+
+
+/* Information */
+
+.hemoglobin-info {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.hemoglobin-info h3 {
+    margin-bottom: 15px;
+    font-size: 24px;
+}
+
+.hemoglobin-info p {
+    color: #555;
+    line-height: 1.6;
+}
